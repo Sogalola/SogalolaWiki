@@ -83,11 +83,19 @@ body {
     padding: 20px;
 }
 
-.table, td, th {
-  border: 1px solid;
-  padding: 10px;
+.crafting_table, td, th{
+    border: 3px solid;
+    padding: 10px;
 }
-.table {
+.crafting_table thead tr {
+    background-color: #5e5e5e;
+}
+
+.trading_table, td, th {
+    border: 1px solid;
+    padding: 10px;
+}
+.trading_table {
     border-radius: 25px;
     border-collapse: collapse;
     margin: 25px 0;
@@ -95,16 +103,16 @@ body {
     min-width: 1000px;
     border-radius: 10px;
 }
-.table thead tr{
+.trading_table thead tr{
     background-color: #e4dda3;
     color: black;
     text-align: center;
 }
-.table th,
-.table tbody tr {
+.trading_table th,
+.trading_table tbody tr {
     border: 1px solid #5e5e5e;
 }
-.table tbody tr:nth-of-type(even) {
+.trading_table tbody tr:nth-of-type(even) {
     background-color: #e5e0ad
 }
 
