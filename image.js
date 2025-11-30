@@ -122,6 +122,8 @@ loadImg('blackBelt', 'https://wiki.cobblemon.com/images/f/f4/Black_Belt.png')
 loadImg('cellBattery', 'https://wiki.cobblemon.com/images/1/10/Cell_Battery.png')
 loadImg('destinyKnot', 'https://wiki.cobblemon.com/images/8/8d/Destiny_Knot.png')
 loadImg('direHit', 'https://wiki.cobblemon.com/images/8/8b/Dire_Hit.png')
+loadImg('ejectButton', 'https://wiki.cobblemon.com/images/6/69/Eject_Button.png')
+loadImg('energyRoot', 'https://wiki.cobblemon.com/images/1/14/Energy_Root.png')
 loadImg('focusBand', 'https://wiki.cobblemon.com/images/3/3e/Focus_Band.png')
 loadImg('focusSash', 'https://wiki.cobblemon.com/images/4/49/Focus_Sash.png')
 loadImg('lifeOrb', 'https://wiki.cobblemon.com/images/a/a5/Life_Orb.png')
@@ -193,6 +195,7 @@ loadImg('ghastTear', 'https://minecraft.wiki/images/Invicon_Ghast_Tear.png?394c9
 // Equipments
 loadImg('elytra', 'https://minecraft.wiki/images/Invicon_Elytra.png?40c07')
 loadImg('shield', 'https://minecraft.wiki/images/Invicon_Shield.png?67b0b')
+loadImg('bow', 'https://minecraft.wiki/images/Invicon_Bow.png?66f96')
 loadImg('crossbow', 'https://minecraft.wiki/images/Invicon_Crossbow.png?3188b')
 
 // Tools
@@ -225,6 +228,7 @@ loadImg('sculk', 'https://minecraft.wiki/images/Invicon_Sculk_Sensor.gif?4dcc2')
 loadImg('tnt', 'https://minecraft.wiki/images/Invicon_TNT.png?89910')
 loadImg('bell', 'https://minecraft.wiki/images/Invicon_Bell.png?325d0')
 loadImg('target', 'https://minecraft.wiki/images/Invicon_Target.png?c4e33')
+loadImg('tripwire', 'https://minecraft.wiki/images/Invicon_Tripwire_Hook.png?b67d4')
 
 // Blocks
 // Stones
