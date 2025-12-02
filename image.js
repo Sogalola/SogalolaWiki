@@ -63,6 +63,77 @@ var PokeBalls = [ 'https://wiki.cobblemon.com/images/6/6f/Poke_Ball.png',
                 'https://wiki.cobblemon.com/images/3/32/Ancient_Gigaton_Ball.png',
                 'https://wiki.cobblemon.com/images/6/69/Ancient_Origin_Ball.png']
 
+var Berries = [ 'https://wiki.cobblemon.com/images/2/24/Oran_Berry.png',
+                'https://wiki.cobblemon.com/images/f/f5/Cheri_Berry.png',
+                'https://wiki.cobblemon.com/images/6/68/Chesto_Berry.png',
+                'https://wiki.cobblemon.com/images/0/0d/Pecha_Berry.png',
+                'https://wiki.cobblemon.com/images/7/78/Rawst_Berry.png',
+                'https://wiki.cobblemon.com/images/b/b3/Aspear_Berry.png',
+                'https://wiki.cobblemon.com/images/f/f3/Persim_Berry.png',
+                'https://wiki.cobblemon.com/images/7/7d/Leppa_Berry.png',
+                'https://wiki.cobblemon.com/images/5/55/Lum_Berry.png',
+                'https://wiki.cobblemon.com/images/c/cc/Figy_Berry.png',
+                'https://wiki.cobblemon.com/images/5/58/Wiki_Berry.png',
+                'https://wiki.cobblemon.com/images/5/56/Mago_Berry.png',
+                'https://wiki.cobblemon.com/images/4/43/Aguav_Berry.png',
+                'https://wiki.cobblemon.com/images/4/4f/Iapapa_Berry.png',
+                'https://wiki.cobblemon.com/images/a/a5/Sitrus_Berry.png',
+                'https://wiki.cobblemon.com/images/e/e4/Touga_Berry.png',
+                'https://wiki.cobblemon.com/images/3/30/Hopo_Berry.png',
+                'https://wiki.cobblemon.com/images/d/db/Razz_Berry.png',
+                'https://wiki.cobblemon.com/images/2/2b/Bluk_Berry.png',
+                'https://wiki.cobblemon.com/images/8/82/Nanab_Berry.png',
+                'https://wiki.cobblemon.com/images/5/5e/Wepear_Berry.png',
+                'https://wiki.cobblemon.com/images/d/d1/Pinap_Berry.png',
+                'https://wiki.cobblemon.com/images/b/b6/Cornn_Berry.png',
+                'https://wiki.cobblemon.com/images/4/49/Magost_Berry.png',
+                'https://wiki.cobblemon.com/images/0/0a/Rabuta_Berry.png',
+                'https://wiki.cobblemon.com/images/1/16/Nomel_Berry.png',
+                'https://wiki.cobblemon.com/images/b/b4/Spelon_Berry.png',
+                'https://wiki.cobblemon.com/images/3/35/Pamtre_Berry.png',
+                'https://wiki.cobblemon.com/images/9/9e/Watmel_Berry.png',
+                'https://wiki.cobblemon.com/images/1/13/Durin_Berry.png',
+                'https://wiki.cobblemon.com/images/5/59/Belue_Berry.png',
+                'https://wiki.cobblemon.com/images/6/61/Chilan_Berry.png',
+                'https://wiki.cobblemon.com/images/5/53/Chople_Berry.png',
+                'https://wiki.cobblemon.com/images/c/cb/Coba_Berry.png',
+                'https://wiki.cobblemon.com/images/6/6a/Kebia_Berry.png',
+                'https://wiki.cobblemon.com/images/e/e9/Shuca_Berry.png',
+                'https://wiki.cobblemon.com/images/0/08/Charti_Berry.png',
+                'https://wiki.cobblemon.com/images/8/80/Tanga_Berry.png',
+                'https://wiki.cobblemon.com/images/b/bb/Kasib_Berry.png',
+                'https://wiki.cobblemon.com/images/3/36/Babiri_Berry.png',
+                'https://wiki.cobblemon.com/images/1/19/Occa_Berry.png',
+                'https://wiki.cobblemon.com/images/b/b4/Passho_Berry.png',
+                'https://wiki.cobblemon.com/images/d/d4/Rindo_Berry.png',
+                'https://wiki.cobblemon.com/images/5/5a/Wacan_Berry.png',
+                'https://wiki.cobblemon.com/images/1/1d/Payapa_Berry.png',
+                'https://wiki.cobblemon.com/images/f/fd/Yache_Berry.png',
+                'https://wiki.cobblemon.com/images/7/7d/Haban_Berry.png',
+                'https://wiki.cobblemon.com/images/3/3f/Colbur_Berry.png',
+                'https://wiki.cobblemon.com/images/3/35/Roseli_Berry.png',
+                'https://wiki.cobblemon.com/images/b/b6/Pomeg_Berry.png',
+                'https://wiki.cobblemon.com/images/7/73/Kelpsy_Berry.png',
+                'https://wiki.cobblemon.com/images/2/21/Qualot_Berry.png',
+                'https://wiki.cobblemon.com/images/5/5d/Hondew_Berry.png',
+                'https://wiki.cobblemon.com/images/1/11/Grepa_Berry.png',
+                'https://wiki.cobblemon.com/images/d/d9/Tamato_Berry.png',
+                'https://wiki.cobblemon.com/images/d/db/Enigma_Berry.png',
+                'https://wiki.cobblemon.com/images/4/4f/Kee_Berry.png',
+                'https://wiki.cobblemon.com/images/9/91/Maranga_Berry.png',
+                'https://wiki.cobblemon.com/images/e/e9/Liechi_Berry.png',
+                'https://wiki.cobblemon.com/images/2/25/Ganlon_Berry.png',
+                'https://wiki.cobblemon.com/images/2/20/Salac_Berry.png',
+                'https://wiki.cobblemon.com/images/6/67/Petaya_Berry.png',
+                'https://wiki.cobblemon.com/images/6/62/Apicot_Berry.png',
+                'https://wiki.cobblemon.com/images/5/5a/Lansat_Berry.png',
+                'https://wiki.cobblemon.com/images/d/de/Starf_Berry.png',
+                'https://wiki.cobblemon.com/images/8/81/Micle_Berry.png',
+                'https://wiki.cobblemon.com/images/4/4e/Custap_Berry.png',
+                'https://wiki.cobblemon.com/images/8/87/Jaboca_Berry.png',
+                'https://wiki.cobblemon.com/images/a/a2/Rowap_Berry.png'
+]
+
 var Beds = [ 'https://minecraft.wiki/images/Invicon_White_Bed.png?f4fed',
             'https://minecraft.wiki/images/Invicon_Light_Gray_Bed.png?d31f3',
             'https://minecraft.wiki/images/Invicon_Gray_Bed.png?d6c87',
@@ -79,6 +150,42 @@ var Beds = [ 'https://minecraft.wiki/images/Invicon_White_Bed.png?f4fed',
             'https://minecraft.wiki/images/Invicon_Purple_Bed.png?1e6bd',
             'https://minecraft.wiki/images/Invicon_Magenta_Bed.png?931f2',
             'https://minecraft.wiki/images/Invicon_Pink_Bed.png?21a97']
+
+var SplashPotions = [ 'https://minecraft.wiki/images/Invicon_Splash_Water_Bottle.png?b1531',
+                    'https://minecraft.wiki/images/Invicon_Splash_Potion_of_Night_Vision.png?f6dc2',
+                    'https://minecraft.wiki/images/Invicon_Splash_Potion_of_Invisibility.png?17058',
+                    'https://minecraft.wiki/images/Invicon_Splash_Potion_of_Leaping.png?cf235',
+                    'https://minecraft.wiki/images/Invicon_Splash_Potion_of_Fire_Resistance.png?be5be',
+                    'https://minecraft.wiki/images/Invicon_Splash_Potion_of_Swiftness.png?19cf7',
+                    'https://minecraft.wiki/images/Invicon_Splash_Potion_of_Slowness.png?e56cd',
+                    'https://minecraft.wiki/images/Invicon_Splash_Potion_of_the_Turtle_Master.png?d7f68',
+                    'https://minecraft.wiki/images/Invicon_Splash_Potion_of_Water_Breathing.png?22ebf',
+                    'https://minecraft.wiki/images/Invicon_Splash_Potion_of_Healing.png?01a80',
+                    'https://minecraft.wiki/images/Invicon_Splash_Potion_of_Harming.png?18316',
+                    'https://minecraft.wiki/images/Invicon_Splash_Potion_of_Poison.png?83108',
+                    'https://minecraft.wiki/images/Invicon_Splash_Potion_of_Regeneration.png?f3b8a',
+                    'https://minecraft.wiki/images/Invicon_Splash_Potion_of_Strength.png?06b70',
+                    'https://minecraft.wiki/images/Invicon_Splash_Potion_of_Weakness.png?fb6bd',
+                    'https://minecraft.wiki/images/Invicon_Splash_Potion_of_Slow_Falling.png?1bc45',
+                    'https://minecraft.wiki/images/Invicon_Splash_Potion_of_Wind_Charging.png?2734f',
+                    'https://minecraft.wiki/images/Invicon_Splash_Potion_of_Weaving.png?8308f',
+                    'https://minecraft.wiki/images/Invicon_Splash_Potion_of_Oozing.png?a2b1a',
+                    'https://minecraft.wiki/images/Invicon_Splash_Potion_of_Infestation.png?7ae99',
+                    'https://minecraft.wiki/images/Invicon_Splash_Potion_of_Luck.png?0224b',
+                    'https://minecraft.wiki/images/Invicon_Splash_Potion_of_Decay.png?88e60']
+
+var Leaves = [ 'https://minecraft.wiki/images/Invicon_Oak_Leaves.png?8a8a6',
+                'https://minecraft.wiki/images/Invicon_Spruce_Leaves.png?4ad6b',
+                'https://minecraft.wiki/images/Invicon_Birch_Leaves.png?1f4c0',
+                'https://minecraft.wiki/images/Invicon_Jungle_Leaves.png?f7b69',
+                'https://minecraft.wiki/images/Invicon_Acacia_Leaves.png?90619',
+                'https://minecraft.wiki/images/Invicon_Dark_Oak_Leaves.png?ada99',
+                'https://minecraft.wiki/images/Invicon_Mangrove_Leaves.png?bc45d',
+                'https://minecraft.wiki/images/Invicon_Cherry_Leaves.png?30207',
+                'https://minecraft.wiki/images/Invicon_Azalea_Leaves.png?fceac',
+                'https://minecraft.wiki/images/Invicon_Flowering_Azalea_Leaves.png?e6ce1',
+                'https://wiki.cobblemon.com/images/7/71/Apricorn_Leaves.png',
+                'https://wiki.cobblemon.com/images/c/c4/Saccharine_Leaves.png' ]
 
 // --------------- Image Load ---------------
 
@@ -117,16 +224,24 @@ loadImg('pazHeal', 'https://wiki.cobblemon.com/images/d/d6/Paralyze_Heal.png')
 loadImg('burHeal', 'https://wiki.cobblemon.com/images/1/10/Burn_Heal.png')
 loadImg('frzHeal', 'https://wiki.cobblemon.com/images/4/41/Ice_Heal.png')
 
+// Stats training
+loadImg('protein', 'https://wiki.cobblemon.com/images/d/d8/Protein.png')
+
 // Others
 loadImg('blackBelt', 'https://wiki.cobblemon.com/images/f/f4/Black_Belt.png')
 loadImg('cellBattery', 'https://wiki.cobblemon.com/images/1/10/Cell_Battery.png')
 loadImg('destinyKnot', 'https://wiki.cobblemon.com/images/8/8d/Destiny_Knot.png')
 loadImg('direHit', 'https://wiki.cobblemon.com/images/8/8b/Dire_Hit.png')
+loadImg('dragonScale', 'https://wiki.cobblemon.com/images/2/25/Dragon_Scale.png')
+loadImg('dragonFang', 'https://wiki.cobblemon.com/images/4/4b/Dragon_Fang.png')
 loadImg('ejectButton', 'https://wiki.cobblemon.com/images/6/69/Eject_Button.png')
 loadImg('energyRoot', 'https://wiki.cobblemon.com/images/1/14/Energy_Root.png')
+loadImg('expertBelt', 'https://wiki.cobblemon.com/images/c/c7/Expert_Belt.png')
 loadImg('focusBand', 'https://wiki.cobblemon.com/images/3/3e/Focus_Band.png')
 loadImg('focusSash', 'https://wiki.cobblemon.com/images/4/49/Focus_Sash.png')
+loadImg('ironBall', 'https://wiki.cobblemon.com/images/9/98/Iron_Ball.png')
 loadImg('lifeOrb', 'https://wiki.cobblemon.com/images/a/a5/Life_Orb.png')
+loadImg('linkCable', 'https://wiki.cobblemon.com/images/3/33/Link_Cable.png')
 loadImg('loveSweet', 'https://wiki.cobblemon.com/images/5/5b/Love_Sweet.png')
 loadImg('medicinalLeek', 'https://wiki.cobblemon.com/images/d/de/Medicinal_Leek.png')
 loadImg('powerBracer', 'https://wiki.cobblemon.com/images/5/5b/Power_Bracer.png')
@@ -134,6 +249,7 @@ loadImg('powerBelt', 'https://wiki.cobblemon.com/images/a/a3/Power_Belt.png')
 loadImg('razorFang', 'https://wiki.cobblemon.com/images/e/e7/Razor_Fang.png')
 loadImg('razorClaw', 'https://wiki.cobblemon.com/images/f/f6/Razor_Claw.png')
 loadImg('redCard', 'https://wiki.cobblemon.com/images/9/93/Red_Card.png')
+loadImg('rockyHelmet', 'https://wiki.cobblemon.com/images/f/f7/Rocky_Helmet.png')
 loadImg('sharpBeak', 'https://wiki.cobblemon.com/images/d/d2/Sharp_Beak.png')
 loadImg('x-atk', 'https://wiki.cobblemon.com/images/c/c9/X_Attack.png')
 loadImg('x-def', 'https://wiki.cobblemon.com/images/d/d6/X_Defense.png')
@@ -193,18 +309,24 @@ loadImg('slimeBall', 'https://minecraft.wiki/images/Invicon_Slimeball.png?ed89f'
 loadImg('ghastTear', 'https://minecraft.wiki/images/Invicon_Ghast_Tear.png?394c9')
 
 // Equipments
+loadImg('ironHelmet', 'https://minecraft.wiki/images/Invicon_Iron_Helmet.png?84d96')
+loadImg('ironBoots', 'https://minecraft.wiki/images/Invicon_Iron_Boots.png?caf88')
 loadImg('elytra', 'https://minecraft.wiki/images/Invicon_Elytra.png?40c07')
 loadImg('shield', 'https://minecraft.wiki/images/Invicon_Shield.png?67b0b')
 loadImg('bow', 'https://minecraft.wiki/images/Invicon_Bow.png?66f96')
 loadImg('crossbow', 'https://minecraft.wiki/images/Invicon_Crossbow.png?3188b')
+loadImg('arrow', 'https://minecraft.wiki/images/Invicon_Arrow.png?243fa')
 
 // Tools
 loadImg('woodSword', 'https://minecraft.wiki/images/Invicon_Wooden_Sword.png?26410')
 loadImg('ironSword', 'https://minecraft.wiki/images/Invicon_Iron_Sword.png?563c5')
+loadImg('ironPickaxe', 'https://minecraft.wiki/images/Invicon_Iron_Pickaxe.png?64d21')
 loadImg('ironAxe', 'https://minecraft.wiki/images/Invicon_Iron_Axe.png?93eb1')
 loadImg('ironShovel', 'https://minecraft.wiki/images/Invicon_Iron_Shovel.png?1f537')
 loadImg('ironHoe', 'https://minecraft.wiki/images/Invicon_Iron_Hoe.png?25549')
+loadImg('netheritePickaxe', 'https://minecraft.wiki/images/Invicon_Netherite_Pickaxe.png?f89e1')
 loadImg('netheriteShovel', 'https://minecraft.wiki/images/Invicon_Netherite_Shovel.png?db0e3')
+loadImg('brush', 'https://minecraft.wiki/images/Invicon_Brush.png?afa3f')
 
 // Food
 loadImg('gap', 'https://minecraft.wiki/images/Invicon_Golden_Apple.png?637e4')
@@ -214,8 +336,8 @@ loadImg('susStew', 'https://minecraft.wiki/images/Invicon_Suspicious_Stew.png?e8
 
 // Potion
 loadImg('potion', 'https://minecraft.wiki/images/Invicon_Water_Bottle.png?3fd59')
-loadImg('splashPotion', 'https://minecraft.wiki/images/Invicon_Splash_Water_Bottle.png?b1531')
 loadImg('dragonBreath', 'https://minecraft.wiki/images/Invicon_Dragon%27s_Breath.png?66142')
+loadImg('milk', 'https://minecraft.wiki/images/Invicon_Milk_Bucket.png?686de')
 
 // Redstone
 loadImg('lever', 'https://minecraft.wiki/images/Invicon_Lever.png?489e7')
@@ -229,17 +351,27 @@ loadImg('tnt', 'https://minecraft.wiki/images/Invicon_TNT.png?89910')
 loadImg('bell', 'https://minecraft.wiki/images/Invicon_Bell.png?325d0')
 loadImg('target', 'https://minecraft.wiki/images/Invicon_Target.png?c4e33')
 loadImg('tripwire', 'https://minecraft.wiki/images/Invicon_Tripwire_Hook.png?b67d4')
+loadImg('shrieker', 'https://minecraft.wiki/images/thumb/Sculk_Shrieker_JE1_BE2.gif/32px-Sculk_Shrieker_JE1_BE2.gif?2c4b9')
 
 // Blocks
 // Stones
 loadImg('cobbleDeepslate', 'https://minecraft.wiki/images/Invicon_Cobbled_Deepslate.png?c80ea')
 // Glasses
 loadImg('blackStainedGlass', 'https://minecraft.wiki/images/Invicon_Black_Stained_Glass.png?573f6')
-// Concretes
+loadImg('pane', 'https://minecraft.wiki/images/Invicon_Glass_Pane.png?839fc')
+// Colors
 loadImg('redConcrete', 'https://minecraft.wiki/images/Invicon_Target.png?c4e33')
 loadImg('greenConcrete', 'https://minecraft.wiki/images/Invicon_Green_Concrete.png?4712a')
+loadImg('blackGlazedTerracotta','https://minecraft.wiki/images/Invicon_Black_Glazed_Terracotta.png?1cf0c')
 // Flowers
 loadImg('witherRose', 'https://minecraft.wiki/images/Invicon_Wither_Rose.png?ac5b2')
+// Functional
+loadImg('anvil', 'https://minecraft.wiki/images/Invicon_Anvil.png?0e685')
+loadImg('smithTable', 'https://minecraft.wiki/images/Invicon_Smithing_Table.png?8b6ee')
+loadImg('grindStone', 'https://minecraft.wiki/images/Invicon_Grindstone.png?796e5')
+// Vines
+loadImg('twistingVines', 'https://minecraft.wiki/images/Invicon_Twisting_Vines.png?d59b0')
+loadImg('weepingVines', 'https://minecraft.wiki/images/Invicon_Weeping_Vines.png?81a35')
 
 // Lighting
 loadImg('lantern', 'https://minecraft.wiki/images/Invicon_Lantern.png?b6bc8')
@@ -248,30 +380,42 @@ loadImg('endRod', 'https://minecraft.wiki/images/Invicon_End_Rod.png?f55a4')
 
 // Others
 loadImg('bars', 'https://minecraft.wiki/images/Invicon_Iron_Bars.png?a5787')
-loadImg('grassBlock', 'https://minecraft.wiki/images/Invicon_Grass_Block.png?a5d1f')
-loadImg('anvil', 'https://minecraft.wiki/images/Invicon_Anvil.png?0e685')
 loadImg('bone', 'https://minecraft.wiki/images/Invicon_Bone.png?d8310')
 loadImg('brick', 'https://minecraft.wiki/images/Invicon_Brick.png?55000')
+loadImg('campfire', 'https://minecraft.wiki/images/Invicon_Campfire.png?dfba6')
+loadImg('chain', 'https://minecraft.wiki/images/Invicon_Iron_Chain.png?5d1e7')
+loadImg('clock', 'https://minecraft.wiki/images/Invicon_Clock.gif?9f1bd')
+loadImg('cryObby', 'https://minecraft.wiki/images/Invicon_Crying_Obsidian.png?eb75b')
 loadImg('dragonHead', 'https://minecraft.wiki/images/Invicon_Dragon_Head.png?9a8cb')
+loadImg('dripstone', 'https://minecraft.wiki/images/Invicon_Pointed_Dripstone.png?23d31')
 loadImg('egg', 'https://minecraft.wiki/images/Invicon_Egg.png?adc61')
+loadImg('enchantedBook', 'https://minecraft.wiki/images/Invicon_Enchanted_Book.gif?85252')
 loadImg('endCrystal', 'https://minecraft.wiki/images/Invicon_End_Crystal.gif?8decb')
+loadImg('enderEye', 'https://minecraft.wiki/images/Invicon_Eye_of_Ender.png?d24aa')
 loadImg('enderPearl', 'https://minecraft.wiki/images/Invicon_Ender_Pearl.png?0933a')
+loadImg('expBottle', 'https://minecraft.wiki/images/Invicon_Bottle_o%27_Enchanting.gif?d5ea5')
 loadImg('feather', 'https://minecraft.wiki/images/Invicon_Feather.png?fe49f')
-loadImg('rocket', 'https://minecraft.wiki/images/Invicon_Firework_Rocket.png?17da3')
 loadImg('fireworkStar', 'https://minecraft.wiki/images/Invicon_Firework_Star.png?3805e')
 loadImg('goatHorn', 'https://minecraft.wiki/images/Invicon_Goat_Horn.png?d8f66')
+loadImg('grassBlock', 'https://minecraft.wiki/images/Invicon_Grass_Block.png?a5d1f')
 loadImg('ice', 'https://minecraft.wiki/images/Invicon_Ice.png?62ae0')
+loadImg('lava', 'https://minecraft.wiki/images/Invicon_Lava_Bucket.png?f0734')
 loadImg('lead', 'https://minecraft.wiki/images/Invicon_Lead.png?fce21')
 loadImg('magma', 'https://minecraft.wiki/images/Invicon_Magma_Block.gif?3e0e8')
+loadImg('mud', 'https://minecraft.wiki/images/Invicon_Mud.png?ea622')
 loadImg('powderSnow', 'https://minecraft.wiki/images/Invicon_Powder_Snow_Bucket.png?f2e0a')
+loadImg('prismarineShard', 'https://minecraft.wiki/images/Invicon_Prismarine_Shard.png?79730')
+loadImg('rocket', 'https://minecraft.wiki/images/Invicon_Firework_Rocket.png?17da3')
 loadImg('rottenFlesh', 'https://minecraft.wiki/images/Invicon_Rotten_Flesh.png?b5520')
+loadImg('saddle', 'https://minecraft.wiki/images/Invicon_Saddle.png?46075')
+loadImg('soulSand', 'https://minecraft.wiki/images/Invicon_Soul_Sand.png?29426')
+loadImg('soulCampfire', 'https://minecraft.wiki/images/Invicon_Soul_Campfire.png?c8a08')
 loadImg('sponge', 'https://minecraft.wiki/images/Invicon_Sponge.png?ab3bd')
 loadImg('spyglass', 'https://minecraft.wiki/images/Invicon_Spyglass.png?3cfb2')
-loadImg('weepingVines', 'https://minecraft.wiki/images/Invicon_Weeping_Vines.png?81a35')
-loadImg('cryObby', 'https://minecraft.wiki/images/Invicon_Crying_Obsidian.png?eb75b')
-loadImg('writtenBook', 'https://minecraft.wiki/images/Invicon_Written_Book.gif?d88f1')
+loadImg('water', 'https://minecraft.wiki/images/Invicon_Water_Bucket.png?a0466')
 loadImg('web', 'https://minecraft.wiki/images/Invicon_Cobweb.png?cb28b')
-loadImg('chain', 'https://minecraft.wiki/images/Invicon_Iron_Chain.png?5d1e7')
+loadImg('warpedRoots', 'https://minecraft.wiki/images/Invicon_Warped_Roots.png?cba2f')
+loadImg('writtenBook', 'https://minecraft.wiki/images/Invicon_Written_Book.gif?d88f1')
 
 // ------ Functions ------
 function loadImg(name, source){
