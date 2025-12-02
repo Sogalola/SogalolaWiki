@@ -187,6 +187,34 @@ var Leaves = [ 'https://minecraft.wiki/images/Invicon_Oak_Leaves.png?8a8a6',
                 'https://wiki.cobblemon.com/images/7/71/Apricorn_Leaves.png',
                 'https://wiki.cobblemon.com/images/c/c4/Saccharine_Leaves.png' ]
 
+var Flowers = [ 'https://minecraft.wiki/images/Invicon_Allium.png?f4282',
+                'https://minecraft.wiki/images/Invicon_Azure_Bluet.png?b5a92',
+                'https://minecraft.wiki/images/Invicon_Blue_Orchid.png?e63ec',
+                'https://minecraft.wiki/images/Invicon_Cornflower.png?597ea',
+                'https://minecraft.wiki/images/Invicon_Dandelion.png?7bba3',
+                'https://minecraft.wiki/images/Invicon_Lily_of_the_Valley.png?ef768',
+                'https://minecraft.wiki/images/Invicon_Red_Tulip.png?cac82',
+                'https://minecraft.wiki/images/Invicon_Orange_Tulip.png?4bed7',
+                'https://minecraft.wiki/images/Invicon_White_Tulip.png?d1438',
+                'https://minecraft.wiki/images/Invicon_Pink_Tulip.png?6658c',
+                'https://minecraft.wiki/images/Invicon_Torchflower.png?3f1ab',
+                'https://minecraft.wiki/images/Invicon_Oxeye_Daisy.png?8c698',
+                'https://minecraft.wiki/images/Invicon_Poppy.png?c109d',
+                'https://minecraft.wiki/images/Invicon_Wither_Rose.png?ac5b2',
+                Leaves[7],
+                'https://minecraft.wiki/images/Invicon_Chorus_Flower.png?e9fed',
+                'https://minecraft.wiki/images/Invicon_Flowering_Azalea.png?f62aa',
+                Leaves[9],
+                'https://minecraft.wiki/images/Invicon_Mangrove_Propagule.png?c2e56',
+                'https://minecraft.wiki/images/Invicon_Pink_Petals.png?d1742',
+                'https://minecraft.wiki/images/Invicon_Spore_Blossom.png?78d25',
+                'https://minecraft.wiki/images/Invicon_Lilac.png?c5e1a',
+                'https://minecraft.wiki/images/Invicon_Peony.png?982f6',
+                'https://minecraft.wiki/images/Invicon_Pitcher_Plant.png?f666e',
+                'https://minecraft.wiki/images/Invicon_Rose_Bush.png?adcb3',
+                'https://minecraft.wiki/images/Invicon_Sunflower.png?3ace4'
+]
+
 // --------------- Image Load ---------------
 
 
@@ -226,10 +254,12 @@ loadImg('frzHeal', 'https://wiki.cobblemon.com/images/4/41/Ice_Heal.png')
 
 // Stats training
 loadImg('protein', 'https://wiki.cobblemon.com/images/d/d8/Protein.png')
+loadImg('mirrorHerb', 'https://wiki.cobblemon.com/images/0/0b/Mirror_Herb.png')
 
 // Others
 loadImg('blackBelt', 'https://wiki.cobblemon.com/images/f/f4/Black_Belt.png')
 loadImg('cellBattery', 'https://wiki.cobblemon.com/images/1/10/Cell_Battery.png')
+loadImg('coin', 'https://wiki.cobblemon.com/images/1/15/Relic_Coin.png')
 loadImg('destinyKnot', 'https://wiki.cobblemon.com/images/8/8d/Destiny_Knot.png')
 loadImg('direHit', 'https://wiki.cobblemon.com/images/8/8b/Dire_Hit.png')
 loadImg('dragonScale', 'https://wiki.cobblemon.com/images/2/25/Dragon_Scale.png')
@@ -246,11 +276,13 @@ loadImg('loveSweet', 'https://wiki.cobblemon.com/images/5/5b/Love_Sweet.png')
 loadImg('medicinalLeek', 'https://wiki.cobblemon.com/images/d/de/Medicinal_Leek.png')
 loadImg('powerBracer', 'https://wiki.cobblemon.com/images/5/5b/Power_Bracer.png')
 loadImg('powerBelt', 'https://wiki.cobblemon.com/images/a/a3/Power_Belt.png')
+loadImg('twistedSpoon', 'https://wiki.cobblemon.com/images/d/dd/Twisted_Spoon.png')
 loadImg('razorFang', 'https://wiki.cobblemon.com/images/e/e7/Razor_Fang.png')
 loadImg('razorClaw', 'https://wiki.cobblemon.com/images/f/f6/Razor_Claw.png')
 loadImg('redCard', 'https://wiki.cobblemon.com/images/9/93/Red_Card.png')
 loadImg('rockyHelmet', 'https://wiki.cobblemon.com/images/f/f7/Rocky_Helmet.png')
 loadImg('sharpBeak', 'https://wiki.cobblemon.com/images/d/d2/Sharp_Beak.png')
+loadImg('spellTag', 'https://wiki.cobblemon.com/images/5/5e/Spell_Tag.png')
 loadImg('x-atk', 'https://wiki.cobblemon.com/images/c/c9/X_Attack.png')
 loadImg('x-def', 'https://wiki.cobblemon.com/images/d/d6/X_Defense.png')
 loadImg('x-acc', 'https://wiki.cobblemon.com/images/e/e1/X_Accuracy.png')
@@ -364,11 +396,13 @@ loadImg('redConcrete', 'https://minecraft.wiki/images/Invicon_Target.png?c4e33')
 loadImg('greenConcrete', 'https://minecraft.wiki/images/Invicon_Green_Concrete.png?4712a')
 loadImg('blackGlazedTerracotta','https://minecraft.wiki/images/Invicon_Black_Glazed_Terracotta.png?1cf0c')
 // Flowers
-loadImg('witherRose', 'https://minecraft.wiki/images/Invicon_Wither_Rose.png?ac5b2')
+loadImg('petals', Flowers[19])
+loadImg('witherRose', Flowers[13])
 // Functional
 loadImg('anvil', 'https://minecraft.wiki/images/Invicon_Anvil.png?0e685')
 loadImg('smithTable', 'https://minecraft.wiki/images/Invicon_Smithing_Table.png?8b6ee')
 loadImg('grindStone', 'https://minecraft.wiki/images/Invicon_Grindstone.png?796e5')
+loadImg('lightningRod', 'https://minecraft.wiki/images/Invicon_Lightning_Rod.png?a82c9')
 // Vines
 loadImg('twistingVines', 'https://minecraft.wiki/images/Invicon_Twisting_Vines.png?d59b0')
 loadImg('weepingVines', 'https://minecraft.wiki/images/Invicon_Weeping_Vines.png?81a35')
@@ -382,6 +416,7 @@ loadImg('endRod', 'https://minecraft.wiki/images/Invicon_End_Rod.png?f55a4')
 loadImg('bars', 'https://minecraft.wiki/images/Invicon_Iron_Bars.png?a5787')
 loadImg('bone', 'https://minecraft.wiki/images/Invicon_Bone.png?d8310')
 loadImg('brick', 'https://minecraft.wiki/images/Invicon_Brick.png?55000')
+loadImg('cactus', 'https://minecraft.wiki/images/Invicon_Cactus.png?67cf5')
 loadImg('campfire', 'https://minecraft.wiki/images/Invicon_Campfire.png?dfba6')
 loadImg('chain', 'https://minecraft.wiki/images/Invicon_Iron_Chain.png?5d1e7')
 loadImg('clock', 'https://minecraft.wiki/images/Invicon_Clock.gif?9f1bd')
