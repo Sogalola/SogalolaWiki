@@ -14,7 +14,10 @@
 .trading_table tbody tr {
     border: 1px solid #5e5e5e;
 }
-.trading_table tbody tr:nth-of-type(even) {
+.trading_table tbody tr:nth-of-type(even) td {
+    background-color: #e5e0ad80
+}
+.trading_table tbody tr:nth-of-type(2) {
     background-color: #e5e0ad
 }
 
@@ -30,7 +33,10 @@
 }
 
 @media (prefers-color-scheme: dark) {
-    .trading_table tbody tr:nth-of-type(even) {
+    .trading_table tbody tr:nth-of-type(even) td {
+        background-color: rgba(129, 98, 39, 0.5)
+    }
+    .trading_table tbody tr:nth-of-type(2) {
         background-color: rgb(129, 98, 39)
     }
 }
