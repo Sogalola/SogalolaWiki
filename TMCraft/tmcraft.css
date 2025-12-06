@@ -28,3 +28,9 @@
 * {
     box-sizing: border-box;
 }
+
+@media (prefers-color-scheme: dark) {
+    .trading_table tbody tr:nth-of-type(even) {
+        background-color: rgb(129, 98, 39)
+    }
+}

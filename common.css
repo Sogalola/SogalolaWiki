@@ -87,3 +87,21 @@ body {
 * {
   box-sizing: border-box;
 }
+
+@media (prefers-color-scheme: dark) {
+    .header {
+        background-color: #232641;
+        color: white;
+    }
+    body {
+        background-color: #444;
+    }
+    .main {
+        color: white;
+        background-color: #444;
+    }
+    .side {
+        background-color: #0f1c2e;
+    }
+    .side a { color: white;}
+}
