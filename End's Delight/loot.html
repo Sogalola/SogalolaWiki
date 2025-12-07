@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Sogalola Wiki</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../common.css">
+<style>
+    .loot_table, td, th {
+        border: 1px solid;
+        padding: 15px;
+    }
+    .loot_table {
+        border-collapse: collapse;
+        margin: 10px 0;
+        font-size: medium;
+        min-width: 200px;
+        border-radius: 10px;
+    }
+    .loot_table th,
+    .loot_table tbody {
+        border: 1px solid;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        .loot_table tbody {
+            border: 1px solid white;
+        }
+    }
+</style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Sogalola Wiki</h1>
+</div>
+
+<div class="layout">
+
+    <div class="main-area">
+
+        <div class="navbar">
+            <a href="./recipe.html">Recipes</a>
+            <a>Drops</a>
+        </div>
+
+        <div class="main">
+            <h2>End's Delight Loot Table</h2>
+            <p>This page containing information about items drop by mobs in End's Delight</p>
+            <table class="loot_table" style="text-align:center" data-description="Looting Table">
+                <tbody>
+                    <tr>
+                        <th colspan="2" rowspan="2">Mob</th>
+                        <th rowspan="2">Item</th>
+                        <th rowspan="2">Default Drop</th>
+                        <th colspan="8">Kill with Knifes</th>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Unenchanted</th>
+                        <th colspan="2">Looting I</th>
+                        <th colspan="2">Looting II</th>
+                        <th colspan="2">Looting III</th>
+                    </tr>
+
+                    <!-- Enderman -->
+                    <tr>
+                        <td><image src="https://minecraft.wiki/images/EntitySprite_enderman.png" width="32" height="32"></image></td>
+                        <td>Enderman</td>
+                        <td><image class="gristle"></image> Enderman Gristle</td>
+                        <td>0</td>
+                        <td>1</td><td>40%</td>
+                        <td>1</td><td>50%</td>
+                        <td>1</td><td>60%</td>
+                        <td>1</td><td>70%</td>
+                    </tr>
+
+                    <!-- Endermite -->
+                    <tr>
+                        <td><image src="https://minecraft.wiki/images/EntitySprite_endermite.png" width="32" height="32"></image></td>
+                        <td>Endermite</td>
+                        <td><image class="rawMiteMeat"></image> Endermite Meat</td>
+                        <td>0</td>
+                        <td>2-4</td><td>100%</td>
+                        <td>2-4</td><td>100%</td>
+                        <td>2-4</td><td>100%</td>
+                        <td>2-4</td><td>100%</td>
+                    </tr>
+
+                    <!-- Shulker -->
+                    <tr>
+                        <td><image src="https://minecraft.wiki/images/EntitySprite_shulker.png" width="32" height="32"></image></td>
+                        <td>Shulker</td>
+                        <td><image class="shulkerMeat"></image> Shulker Meat</td>
+                        <td>0</td>
+                        <td>1</td><td>90%</td>
+                        <td>1</td><td>90%</td>
+                        <td>1</td><td>90%</td>
+                        <td>1</td><td>90%</td>
+                    </tr>
+
+                    <!-- Dragon -->
+                    <tr>
+                        <td rowspan="3"><image src="https://minecraft.wiki/images/EntitySprite_ender-dragon.png" width="32" height="32"></image></td>
+                        <td rowspan="3">Ender Dragon</td>
+                        <td><image class="dragonLeg"></image> Dragon Leg</td>
+                        <td>2</td>
+                        <td>2</td><td>100%</td>
+                        <td>2</td><td>100%</td>
+                        <td>2</td><td>100%</td>
+                        <td>2</td><td>100%</td>
+                    </tr>
+                    <tr>
+                        <td><image class="dragonTooth"> Dragon Tooth</image></td>
+                        <td>3-5</td>
+                        <td>5-7</td><td>100%</td>
+                        <td>5-7</td><td>100%</td>
+                        <td>5-7</td><td>100%</td>
+                        <td>5-7</td><td>100%</td>
+                    </tr>
+                    <tr>
+                        <td><image class="rawDragonMeat"> Raw Dragon Meat</image></td>
+                        <td>5-7</td>
+                        <td>7-9</td><td>100%</td>
+                        <td>7-9</td><td>100%</td>
+                        <td>7-9</td><td>100%</td>
+                        <td>7-9</td><td>100%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="side">
+        <a>Home</a>
+        <a href="../Combining Gears/recipe.html">Combining Gears</a>
+        <a href="../TMCraft/recipe.html">TMCraft</a>
+        <a href="./recipe.html">End's Delight</a>
+    </div>
+</div>
+
+<script src="./images.js" type="module"></script>
+
+<div class="footer">
+</div>
+
+</body>
+</html>

@@ -19,6 +19,7 @@ body {
 
 /* Style the top navigation bar */
 .navbar {
+    flex: 80%;
     overflow: hidden;
     background-color: #333;
 }
@@ -37,7 +38,7 @@ body {
     color: black;
 }
 
-.row {  
+.layout {  
     display: -ms-flexbox; /* IE10 */
     display: flex;
     -ms-flex-wrap: wrap; /* IE10 */
@@ -68,11 +69,14 @@ body {
     width: 335px;
     text-decoration: none;
 }
-.main {
+.main-area {
     -ms-flex: 80%; /* IE10 */
     flex: 80%;
+}
+.main {
     background-color: white;
     padding: 40px;
+    image-rendering: pixelated;
 }
 
 .footer {
@@ -86,6 +90,9 @@ body {
 }
 
 @media (prefers-color-scheme: dark) {
+    .table-naviagtor {
+        color: white;
+    }
     .header {
         background-color: #232641;
         color: white;
