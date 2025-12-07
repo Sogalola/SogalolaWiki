@@ -11,8 +11,8 @@
     border-radius: 10px;
 }
 .trading_table th,
-.trading_table tbody tr {
-    border: 1px solid #5e5e5e;
+.trading_table tbody {
+    border: 1px solid;
 }
 .trading_table tbody tr:nth-of-type(even) td {
     background-color: #e5e0ad80
@@ -21,18 +21,13 @@
     background-color: #e5e0ad
 }
 
-/* Footer */
-.footer {
-    padding: 20px;
-    text-align: center;
-    background: #ddd;
-}
-
-* {
-    box-sizing: border-box;
-}
-
 @media (prefers-color-scheme: dark) {
+    .table-naviagtor {
+        color: white;
+    }
+    .trading_table tbody {
+        border: 1px solid white;
+    }
     .trading_table tbody tr:nth-of-type(even) td {
         background-color: rgba(129, 98, 39, 0.5)
     }
