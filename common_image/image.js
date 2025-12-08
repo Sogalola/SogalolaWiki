@@ -404,6 +404,7 @@ loadImg('glowstoneDust', 'https://minecraft.wiki/images/Invicon_Glowstone_Dust.p
 loadImg('membrane', 'https://minecraft.wiki/images/Invicon_Phantom_Membrane.png')
 loadImg('turtleShell', 'https://minecraft.wiki/images/Invicon_Turtle_Shell.png')
 loadImg('slimeBall', 'https://minecraft.wiki/images/Invicon_Slimeball.png')
+loadImg('sugar', 'https://minecraft.wiki/images/Invicon_Sugar.png')
 loadImg('wart', 'https://minecraft.wiki/images/Invicon_Nether_Wart.png')
 loadImg('milkBucket', Milk[0])
 
@@ -439,6 +440,7 @@ loadImg('blackGlazedTerracotta','https://minecraft.wiki/images/Invicon_Black_Gla
 loadImg('magentaGlazedTerracotta','https://minecraft.wiki/images/Invicon_Magenta_Glazed_Terracotta.png')
 // Flowers
 loadImg('petals', Flowers[19])
+loadImg('poppy', SmallFlowers[12])
 loadImg('witherRose', SmallFlowers[13])
 // Functional
 loadImg('anvil', 'https://minecraft.wiki/images/Invicon_Anvil.png')
@@ -471,6 +473,8 @@ loadImg('armorStand', 'https://minecraft.wiki/images/Invicon_Armor_Stand.png')
 loadImg('bars', 'https://minecraft.wiki/images/Invicon_Iron_Bars.png')
 loadImg('barrel', 'https://minecraft.wiki/images/Invicon_Barrel.png')
 loadImg('bone', 'https://minecraft.wiki/images/Invicon_Bone.png')
+loadImg('boneMeal', 'https://minecraft.wiki/images/Invicon_Bone_Meal.png')
+loadImg('bowl', 'https://minecraft.wiki/images/Invicon_Bowl.png')
 loadImg('brick', 'https://minecraft.wiki/images/Invicon_Brick.png')
 loadImg('bucket', 'https://minecraft.wiki/images/Invicon_Bucket.png')
 loadImg('cactus', 'https://minecraft.wiki/images/Invicon_Cactus.png')
