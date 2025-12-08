@@ -1,4 +1,4 @@
-import { loadImg } from "../functions.js"
+import { loadImg } from "../common_image/functions.js"
 
 // Dragon
 loadImg('rawDragonMeat', 'https://github.com/FoggyHillside/End-s-Delight/blob/1.21.1-Refabricated/src/main/resources/assets/ends_delight/textures/item/raw_dragon_meat.png?raw=true')

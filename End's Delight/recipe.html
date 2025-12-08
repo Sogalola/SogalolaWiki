@@ -23,13 +23,70 @@
 
         <div class="main">
             <h2>End's Delight Crafting Recipes (Unfinished)</h2>
+            <p>This page contain all recipe from End's Delight, including crafting, smelting, smoking, cutting and cooking.</p>
             <div style="border: 3px solid #aaa; padding-left: 25px; padding-right: 35px; display: inline-block;">
                 <p> Navigating:
+                    <ul><a href="#Crafting" class="table-naviagtor"><b>Food Crafting Recipes</b></a></ul>
                     <ul><a href="#Knifes" class="table-naviagtor"><b>Knifes Crafting Recipes</b></a></ul>
+                    <ul><a href="#Smelting" class="table-naviagtor"><b>Smoking/Smelting Recipes</b></a></ul>
+                    <ul><a href="#Cutting" class="table-naviagtor"><b>Cutting Recipes</b></a></ul>
                     <ul><a href="#Other" class="table-naviagtor"><b>Others Crafting Recipes</b></a></ul>
                 </p>
             </div>
 
+            <h2 id="#Crafting">Food Crafting Recipes</h2>
+            <div class="table-container">
+                <!-- Assorted Salad -->
+                <div class="interface crafting-interface">
+                    <div class="crafting-interface-ingredients">
+                        <div class="item-slot-row">
+                        <div class="item-slot"><img class="chorusFruit"><span class="item-tooltip">Chorus Fruit</span></div>
+                        <div class="item-slot"><img class="chorusSucculent"><span class="item-tooltip">Chorus Succulent</span></div>
+                        <div class="item-slot"><img class="crimsonFungus"><span class="item-tooltip">Crimson Fungus</span></div>
+                        </div>
+                        <div class="item-slot-row">
+                        <div class="item-slot"><img class="warpedFungus"><span class="item-tooltip">Warped Fungus</span></div>
+                        <div class="item-slot"><img class="cabbages"><span class="item-tooltip">Cabbages</span></div>
+                        <div class="item-slot"><img class="tomato"><span class="item-tooltip">Tomato</span></div>
+                        </div>
+                        <div class="item-slot-row">
+                        <div class="item-slot"><img class="shulkerShell"><span class="item-tooltip">Shulker Shell</span></div>
+                        <div class="item-slot"></div>
+                        <div class="item-slot"></div>
+                        </div>
+                    </div>
+                    <div class="crafting-interface-result">
+                        <div class="item-slot item-slot-large"><img class="assortedSalad"><span class="item-tooltip">Assorted Salad</span></div>
+                    </div>
+                </div>
+                <!-- Chorus Cookie -->
+                <div class="interface crafting-interface">
+                    <div class="crafting-interface-ingredients">
+                        <div class="item-slot-row">
+                        <div class="item-slot"></div>
+                        <div class="item-slot"></div>
+                        <div class="item-slot"></div>
+                        </div>
+                        <div class="item-slot-row">
+                        <div class="item-slot"><img class="wheat"><span class="item-tooltip">Wheat</span></div>
+                        <div class="item-slot"><img class="wheat"><span class="item-tooltip">Wheat</span></div>
+                        <div class="item-slot"><img class="chorusFruitGrain"><span class="item-tooltip">Chorus Fruit Grain</span></div>
+                        </div>
+                        <div class="item-slot-row">
+                        <div class="item-slot"></div>
+                        <div class="item-slot"></div>
+                        <div class="item-slot"></div>
+                        </div>
+                    </div>
+                    <div class="crafting-interface-result">
+                        <div class="item-slot item-slot-large">
+                            <img class="chorusCookie">
+                            <span class="item-tooltip">Chorus Cookie</span>
+                            <span class="item-slot-count">8</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <h2 id="Knifes">Knifes Crafting Recipes</h2>
             <div class="table-container">
@@ -116,6 +173,201 @@
                     </div>
                 </div>
             </div>
+
+            <h2 id="Smelting">Smoking/Smelting Recipes</h2>
+            If you don't see an icon in this tab, it's mean it can be use in both furnace and smoker.
+            <div class="table-container" style="column-gap: 4%;">
+                <!-- Dried Chorus Flower -->
+                <div class="interface smelting-interface">
+                    <div class="smelting-interface-input">
+                        <div class="item-slot"><div class="image-sequence" style="width:32px;"><div class="image-sequence-group"><img class="chorusFlower"></div></div><span class="item-tooltip">Chorus Flower</span></div>
+                        <div class="item-slot"><div class="image-sequence" style="width:32px;"><div class="image-sequence-group"><img class="coal"></div></div><span class="item-tooltip">Fuel</span></div>
+                    </div>
+                    <div class="smelting-interface-result">
+                        <div class="item-slot-output">
+                        <div class="item-slot item-slot-large"><div class="image-sequence" style="width:32px;"><div class="image-sequence-group"><img class="driedChorus"></div></div><span class="item-tooltip">Dried Chorus Flower</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dried Endermite Meat -->
+                <div class="interface smelting-interface">
+                    <div class="smelting-interface-input">
+                        <div class="item-slot"><div class="image-sequence" style="width:32px;"><div class="image-sequence-group"><img class="rawMiteMeat"></div></div><span class="item-tooltip">Raw Endermite Meat</span></div>
+                        <div class="item-slot"><div class="image-sequence" style="width:32px;"><div class="image-sequence-group"><img class="coal"></div></div><span class="item-tooltip">Fuel</span></div>
+                    </div>
+                    <div class="smelting-interface-result">
+                        <div class="item-slot-output">
+                        <div class="item-slot item-slot-large"><div class="image-sequence" style="width:32px;"><div class="image-sequence-group"><img class="cookedMiteMeat"></div></div><span class="item-tooltip">Dried Endermite Meat</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Roasted Shulker Meat -->
+                <div class="interface smelting-interface">
+                    <div class="smelting-interface-input">
+                        <div class="item-slot"><div class="image-sequence" style="width:32px;"><div class="image-sequence-group"><img class="shulkerMeat"></div></div><span class="item-tooltip">Raw Shulker Meat</span></div>
+                        <div class="item-slot"><div class="image-sequence" style="width:32px;"><div class="image-sequence-group"><img class="coal"></div></div><span class="item-tooltip">Fuel</span></div>
+                    </div>
+                    <div class="smelting-interface-result">
+                        <div class="item-slot-output">
+                        <div class="item-slot item-slot-large"><div class="image-sequence" style="width:32px;"><div class="image-sequence-group"><img class="cookedShulker"></div></div><span class="item-tooltip">Roasted Shulker Meat</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Roasted Shulker Meat Slice -->
+                <div class="interface smelting-interface">
+                    <div class="smelting-interface-input">
+                        <div class="item-slot"><div class="image-sequence" style="width:32px;"><div class="image-sequence-group"><img class="shulkerSlice"></div></div><span class="item-tooltip">Raw Shulker Meat Slice</span></div>
+                        <div class="item-slot"><div class="image-sequence" style="width:32px;"><div class="image-sequence-group"><img class="coal"></div></div><span class="item-tooltip">Fuel</span></div>
+                    </div>
+                    <div class="smelting-interface-result">
+                        <div class="item-slot-output">
+                        <div class="item-slot item-slot-large"><div class="image-sequence" style="width:32px;"><div class="image-sequence-group"><img class="cookedShulkerSlice"></div></div><span class="item-tooltip">Roasted Shulker Meat Slice</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Shulker Omelette -->
+                <div class="interface smelting-interface">
+                    <div class="smelting-interface-input">
+                        <div class="item-slot"><div class="image-sequence" style="width:32px;"><div class="image-sequence-group"><img class="shulkerMixture"></div></div><span class="item-tooltip">Shulker Omelette Mixture</span></div>
+                        <div class="item-slot"><div class="image-sequence" style="width:32px;"><div class="image-sequence-group"><img class="coal"></div></div><span class="item-tooltip">Fuel</span></div>
+                    </div>
+                    <div class="smelting-interface-result">
+                        <div class="item-slot-output">
+                        <div class="item-slot item-slot-large"><div class="image-sequence" style="width:32px;"><div class="image-sequence-group"><img class="shulkerOmelette"></div></div><span class="item-tooltip">Shulker Omelette</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fried Dragon Egg -->
+                <div class="interface smelting-interface">
+                    <div class="smelting-interface-input">
+                        <div class="item-slot"><div class="image-sequence" style="width:32px;"><div class="image-sequence-group"><img class="dragonYolk"></div></div><span class="item-tooltip">Liquid Dragon Egg</span></div>
+                        <div class="item-slot"><div class="image-sequence" style="width:32px;"><div class="image-sequence-group"><img class="coal"></div></div><span class="item-tooltip">Fuel</span></div>
+                    </div>
+                    <div class="smelting-interface-result">
+                        <div class="item-slot-output">
+                        <div class="item-slot item-slot-large"><div class="image-sequence" style="width:32px;"><div class="image-sequence-group"><img class="friedDEgg"></div></div><span class="item-tooltip">Fried Dragon Egg</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Roasted Dragon Meat -->
+                <div class="interface smelting-interface">
+                    <div class="smelting-interface-input">
+                        <div class="item-slot"><div class="image-sequence" style="width:32px;"><div class="image-sequence-group"><img class="rawDragonMeat"></div></div><span class="item-tooltip">Raw Dragon Meat</span></div>
+                        <div class="item-slot"><div class="image-sequence" style="width:32px;"><div class="image-sequence-group"><img class="coal"></div></div><span class="item-tooltip">Fuel</span></div>
+                    </div>
+                    <div class="smelting-interface-result">
+                        <div class="item-slot-output">
+                        <div class="item-slot item-slot-large"><div class="image-sequence" style="width:32px;"><div class="image-sequence-group"><img class="cookedDragonMeat"></div></div><span class="item-tooltip">Roasted Dragon Meat</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Roasted Dragon Meat Cuts -->
+                <div class="interface smelting-interface">
+                    <div class="smelting-interface-input">
+                        <div class="item-slot"><div class="image-sequence" style="width:32px;"><div class="image-sequence-group"><img class="rawDragonSlice"></div></div><span class="item-tooltip">Raw Dragon Meat Cuts</span></div>
+                        <div class="item-slot"><div class="image-sequence" style="width:32px;"><div class="image-sequence-group"><img class="coal"></div></div><span class="item-tooltip">Fuel</span></div>
+                    </div>
+                    <div class="smelting-interface-result">
+                        <div class="item-slot-output">
+                        <div class="item-slot item-slot-large"><div class="image-sequence" style="width:32px;"><div class="image-sequence-group"><img class="cookedDragonSlice"></div></div><span class="item-tooltip">Roasted Dragon Meat Cuts</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Smoked Dragon Leg -->
+                <div class="interface smelting-interface smoking">
+                    <div class="smelting-interface-input">
+                        <div class="item-slot"><div class="image-sequence" style="width:32px;"><div class="image-sequence-group"><img class="dragonLeg"></div></div><span class="item-tooltip">Dragon Leg</span></div>
+                        <div class="item-slot"><div class="image-sequence" style="width:32px;"><div class="image-sequence-group"><img class="coal"></div></div><span class="item-tooltip">Fuel</span></div>
+                    </div>
+                    <div class="smelting-interface-result">
+                        <div class="item-slot-output">
+                        <div class="item-slot item-slot-large"><div class="image-sequence" style="width:32px;"><div class="image-sequence-group"><img class="smokedLeg"></div></div><span class="item-tooltip">Smoked Dragon Leg</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ender Sausage -->
+                <div class="interface smelting-interface">
+                    <div class="smelting-interface-input">
+                        <div class="item-slot"><div class="image-sequence" style="width:32px;"><div class="image-sequence-group"><img class="rawSausage"></div></div><span class="item-tooltip">Raw Ender Sausage</span></div>
+                        <div class="item-slot"><div class="image-sequence" style="width:32px;"><div class="image-sequence-group"><img class="coal"></div></div><span class="item-tooltip">Fuel</span></div>
+                    </div>
+                    <div class="smelting-interface-result">
+                        <div class="item-slot-output">
+                        <div class="item-slot item-slot-large"><div class="image-sequence" style="width:32px;"><div class="image-sequence-group"><img class="sausage"></div></div><span class="item-tooltip">Ender Sausage</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h2 id="Cutting">Cutting Recipes</h2>
+            <div class="table-container">
+
+                <!-- Raw Dragon Meat Cuts -->
+                <div class="interface cutting-interface">
+                    <div class="cutting-interface-tools">
+                        <div class="item-slot"><img class="knifes"><span class="item-tooltip">Knifes</span></div>
+                        <div class="cutting-slot"><img class="chorusFruit"><span class="item-tooltip">Raw Dragon Meat</span></div>
+                    </div>
+                    <div class="cutting-interface-result">
+                        <div class="item-slot item-slot-large">
+                            <img class="rawDragonSlice">
+                            <span class="item-tooltip">Raw Dragon Meat Cuts</span>
+                            <span class="item-slot-count">3</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dragon Egg Shell -->
+                <div class="interface cutting-interface">
+                    <div class="cutting-interface-tools">
+                        <div class="item-slot"><img class="netherStar"><span class="item-tooltip">Nether Star</span></div>
+                        <div class="cutting-slot"><img class="nonHatchableDragonEgg"><span class="item-tooltip">Non Hatchable Dragon Egg</span></div>
+                    </div>
+                    <div class="cutting-interface-result">
+                        <div class="item-slot item-slot-large"><img class="dragonYolk"><span class="item-tooltip">Liquid Dragon Egg</span></div>
+                        <div class="item-slot item-slot-large"><img class="dragonEggShell"><span class="item-tooltip">Dragon Egg Shell</span></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- <h2 id="Cooking">Cooking Recipes</h2>
+            <div class="table-container">
+                
+                Bubble Tea
+                <div class="interface crafting-interface">
+                    <div class="crafting-interface-ingredients">
+                        <div class="item-slot-row">
+                        <div class="item-slot"></div>
+                        <div class="item-slot"></div>
+                        <div class="item-slot"></div>
+                        </div>
+                        <div class="item-slot-row">
+                        <div class="item-slot"><img class="milk"><span class="item-tooltip">Milk</span></div>
+                        <div class="item-slot"><img class="chorusThings"><span class="item-tooltip chorusThings"></span></div>
+                        <div class="item-slot"><img class="pearlGrain"><span class="item-tooltip">Ender Pearl Grain</span></div>
+                        </div>
+                        <div class="item-slot-row">
+                        <div class="item-slot"></div>
+                        <div class="item-slot"></div>
+                        <div class="item-slot"></div>
+                        </div>
+                    </div>
+                    <div class="crafting-interface-result">
+                        <div class="item-slot item-slot-large"><img class="bubbleTea"><span class="item-tooltip">Bubble Tea</span></div>
+                    </div>
+                </div>
+            </div> -->
+
             <h2 id="Other">Other Crafting Recipes</h2>
             <div class="table-container">
                 <!-- Chorus Fruit Crate -->
@@ -248,26 +500,88 @@
         <a>End's Delight</a>
     </div>
 </div>
-<script src="../image.js" type="module"></script>
+<script src="../common_image/image.js" type="module"></script>
 <script src="./images.js" type="module"></script>
 <script type="module">
-    import { loadImg } from "../functions.js"
+
+    var Knifes = [ 'https://github.com/MehVahdJukaar/FarmersDelightRefabricated/blob/fabric/1.21.1-3.0.0/src/main/resources/assets/farmersdelight/textures/item/flint_knife.png?raw=true',
+                    'https://github.com/MehVahdJukaar/FarmersDelightRefabricated/blob/fabric/1.21.1-3.0.0/src/main/resources/assets/farmersdelight/textures/item/iron_knife.png?raw=true',
+                    'https://github.com/MehVahdJukaar/FarmersDelightRefabricated/blob/fabric/1.21.1-3.0.0/src/main/resources/assets/farmersdelight/textures/item/golden_knife.png?raw=true',
+                    'https://github.com/MehVahdJukaar/FarmersDelightRefabricated/blob/fabric/1.21.1-3.0.0/src/main/resources/assets/farmersdelight/textures/item/diamond_knife.png?raw=true',
+                    'https://github.com/MehVahdJukaar/FarmersDelightRefabricated/blob/fabric/1.21.1-3.0.0/src/main/resources/assets/farmersdelight/textures/item/netherite_knife.png?raw=true',
+                    'https://github.com/FoggyHillside/End-s-Delight/blob/1.21.1-Refabricated/src/main/resources/assets/ends_delight/textures/item/purpur_knife.png?raw=true',
+                    'https://github.com/FoggyHillside/End-s-Delight/blob/1.21.1-Refabricated/src/main/resources/assets/ends_delight/textures/item/end_stone_knife.png?raw=true',
+                    'https://github.com/FoggyHillside/End-s-Delight/blob/1.21.1-Refabricated/src/main/resources/assets/ends_delight/textures/item/dragon_egg_shell_knife.png?raw=true',
+                    'https://github.com/FoggyHillside/End-s-Delight/blob/1.21.1-Refabricated/src/main/resources/assets/ends_delight/textures/item/dragon_tooth_knife.png?raw=true'
+    ]
+
+    var Cabbages = [ 'https://github.com/MehVahdJukaar/FarmersDelightRefabricated/blob/fabric/1.21.1-3.0.0/src/main/resources/assets/farmersdelight/textures/item/cabbage.png?raw=true',
+                    'https://github.com/MehVahdJukaar/FarmersDelightRefabricated/blob/fabric/1.21.1-3.0.0/src/main/resources/assets/farmersdelight/textures/item/cabbage_leaf.png?raw=true'
+    ]
+
+    import { loadImg } from "../common_image/functions.js"
+    import { Milk } from "../common_image/image.js"
+    // ----- Farmer's Delight -----
+    loadImg('tomato', 'https://github.com/MehVahdJukaar/FarmersDelightRefabricated/blob/fabric/1.21.1-3.0.0/src/main/resources/assets/farmersdelight/textures/item/tomato.png?raw=true')
+
+    // ----- End's Delight -----
+
     // Ingredients
     loadImg('chorusFruitCrate', 'image/chorus_fruit_crate.png')
-    loadImg('dragonEggShell', 'https://github.com/FoggyHillside/End-s-Delight/blob/1.21.1-Refabricated/src/main/resources/assets/ends_delight/textures/item/half_dragon_egg_shell.png?raw=true')
     loadImg('chorusSucculent', 'https://github.com/FoggyHillside/End-s-Delight/blob/1.21.1-Refabricated/src/main/resources/assets/ends_delight/textures/item/chorus_succulent.png?raw=true')
+    loadImg('driedChorus', 'https://github.com/FoggyHillside/End-s-Delight/blob/1.21.1-Refabricated/src/main/resources/assets/ends_delight/textures/item/dried_chorus_flower.png?raw=true')
+    loadImg('chorusFruitGrain', 'https://github.com/FoggyHillside/End-s-Delight/blob/1.21.1-Refabricated/src/main/resources/assets/ends_delight/textures/item/chorus_fruit_grain.png?raw=true')
+    loadImg('pearlGrain', 'https://github.com/FoggyHillside/End-s-Delight/blob/1.21.1-Refabricated/src/main/resources/assets/ends_delight/textures/item/ender_pearl_grain.png?raw=true')
     loadImg('nonHatchableDragonEgg', 'https://github.com/FoggyHillside/End-s-Delight/blob/1.21.1-Refabricated/src/main/resources/assets/ends_delight/textures/item/non_hatchable_dragon_egg.png?raw=true')
+    loadImg('dragonEggShell', 'https://github.com/FoggyHillside/End-s-Delight/blob/1.21.1-Refabricated/src/main/resources/assets/ends_delight/textures/item/half_dragon_egg_shell.png?raw=true')
     // Knifes
-    loadImg('dragonEggShellKnife', 'https://github.com/FoggyHillside/End-s-Delight/blob/1.21.1-Refabricated/src/main/resources/assets/ends_delight/textures/item/dragon_egg_shell_knife.png?raw=true')
-    loadImg('dragonToothKnife', 'https://github.com/FoggyHillside/End-s-Delight/blob/1.21.1-Refabricated/src/main/resources/assets/ends_delight/textures/item/dragon_tooth_knife.png?raw=true')
-    loadImg('endStoneKnife', 'https://github.com/FoggyHillside/End-s-Delight/blob/1.21.1-Refabricated/src/main/resources/assets/ends_delight/textures/item/end_stone_knife.png?raw=true')
-    loadImg('purpurKnife', 'https://github.com/FoggyHillside/End-s-Delight/blob/1.21.1-Refabricated/src/main/resources/assets/ends_delight/textures/item/purpur_knife.png?raw=true')
-    let index = 0
+    loadImg('purpurKnife', Knifes[5])
+    loadImg('endStoneKnife', Knifes[6])
+    loadImg('dragonEggShellKnife', Knifes[7])
+    loadImg('dragonToothKnife', Knifes[8])
+    // Meat
+    loadImg('cookedShulker', 'https://github.com/FoggyHillside/End-s-Delight/blob/1.21.1-Refabricated/src/main/resources/assets/ends_delight/textures/item/roasted_shulker_meat.png?raw=true')
+    loadImg('shulkerSlice', 'https://github.com/FoggyHillside/End-s-Delight/blob/1.21.1-Refabricated/src/main/resources/assets/ends_delight/textures/item/roasted_shulker_meat_slice.png?raw=true')
+    loadImg('cookedShulkerSlice', 'https://github.com/FoggyHillside/End-s-Delight/blob/1.21.1-Refabricated/src/main/resources/assets/ends_delight/textures/item/roasted_shulker_meat_slice.png?raw=true')
+    loadImg('shulkerMixture', 'https://github.com/FoggyHillside/End-s-Delight/blob/1.21.1-Refabricated/src/main/resources/assets/ends_delight/textures/item/shulker_omelette_mixture.png?raw=true')
+    loadImg('shulkerOmelette' , 'https://github.com/FoggyHillside/End-s-Delight/blob/1.21.1-Refabricated/src/main/resources/assets/ends_delight/textures/item/shulker_omelette.png?raw=true')
+    loadImg('smokedLeg', 'https://github.com/FoggyHillside/End-s-Delight/blob/1.21.1-Refabricated/src/main/resources/assets/ends_delight/textures/item/smoked_dragon_leg.png?raw=true')
+    loadImg('rawDragonSlice', 'https://github.com/FoggyHillside/End-s-Delight/blob/1.21.1-Refabricated/src/main/resources/assets/ends_delight/textures/item/raw_dragon_meat_cuts.png?raw=true')
+    loadImg('cookedDragonMeat', 'https://github.com/FoggyHillside/End-s-Delight/blob/1.21.1-Refabricated/src/main/resources/assets/ends_delight/textures/item/roasted_dragon_meat.png?raw=true')
+    loadImg('cookedDragonSlice', 'https://github.com/FoggyHillside/End-s-Delight/blob/1.21.1-Refabricated/src/main/resources/assets/ends_delight/textures/item/roasted_dragon_meat_cuts.png?raw=true')
+    // Complicate Food
+    loadImg('assortedSalad', 'https://github.com/FoggyHillside/End-s-Delight/blob/1.21.1-Refabricated/src/main/resources/assets/ends_delight/textures/item/assorted_salad.png?raw=true')
+    loadImg('bubbleTea', 'https://github.com/FoggyHillside/End-s-Delight/blob/1.21.1-Refabricated/src/main/resources/assets/ends_delight/textures/item/bubble_tea.png?raw=true')
+    loadImg('chorusCookie', 'https://github.com/FoggyHillside/End-s-Delight/blob/1.21.1-Refabricated/src/main/resources/assets/ends_delight/textures/item/chorus_cookie.png?raw=true')
+    loadImg('dragonYolk', 'https://github.com/FoggyHillside/End-s-Delight/blob/1.21.1-Refabricated/src/main/resources/assets/ends_delight/textures/item/liquid_dragon_egg.png?raw=true')
+    loadImg('friedDEgg', 'https://github.com/FoggyHillside/End-s-Delight/blob/1.21.1-Refabricated/src/main/resources/assets/ends_delight/textures/item/fried_dragon_egg.png?raw=true')
+    loadImg('rawSausage','https://github.com/FoggyHillside/End-s-Delight/blob/1.21.1-Refabricated/src/main/resources/assets/ends_delight/textures/item/raw_ender_sausage.png?raw=true')
+    loadImg('sausage','https://github.com/FoggyHillside/End-s-Delight/blob/1.21.1-Refabricated/src/main/resources/assets/ends_delight/textures/item/ender_sausage.png?raw=true')
+
+    let index = [0,0,0]
     changeImg()
     setInterval(changeImg, 1500)
     function changeImg(){
-        index == 0 ? document.querySelector('.purpurThings').src = 'https://minecraft.wiki/images/Invicon_Popped_Chorus_Fruit.png' : document.querySelector('.purpurThings').src = 'https://minecraft.wiki/images/Invicon_Purpur_Pillar.png' 
-        index = (index + 1) % 2
+        if (index[0] == 0) {
+            document.querySelector('.purpurThings').src = 'https://minecraft.wiki/images/Invicon_Popped_Chorus_Fruit.png'
+            document.querySelector('.cabbages').src = Cabbages[0]
+            // document.querySelector('.milk').src = Milk[0]
+        } else {
+            document.querySelector('.purpurThings').src = 'https://minecraft.wiki/images/Invicon_Purpur_Pillar.png'
+            document.querySelector('.cabbages').src = Cabbages[1]
+            // document.querySelector('.milk').src = Milk[1]
+        }
+        // if (index[1] > 1) {
+        //     document.querySelector('img.chorusThings').src = 'https://minecraft.wiki/images/Invicon_Popped_Chorus_Fruit.png'
+        //     document.querySelector('span.chorusThings').innerHTML = "Chorus Fruit"
+        // } else {
+        //     document.querySelector('img.chorusThings').src = 'https://github.com/FoggyHillside/End-s-Delight/blob/1.21.1-Refabricated/src/main/resources/assets/ends_delight/textures/item/chorus_fruit_grain.png?raw=true'
+        //     document.querySelector('span.chorusThings').innerHTML = "Chorus Fruit Grain"
+        // }
+        document.querySelectorAll('.knifes').forEach(element => { element.src = Knifes[index[2]]})
+        index[0] = (index[0] + 1) % 2
+        index[1] = (index[1] + 1) % 4
+        index[2] = (index[2] + 1) % Knifes.length
     }
 </script>
 <div class="footer">

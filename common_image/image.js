@@ -318,6 +318,9 @@ export var MusicDiscs = [ 'https://minecraft.wiki/images/Invicon_Music_Disc_13.p
                     'https://minecraft.wiki/images/Invicon_Music_Disc_Precipice.png',
                     'https://minecraft.wiki/images/Invicon_Music_Disc_Lava_Chicken.png' ]
 
+export var Milk = [ 'https://minecraft.wiki/images/Invicon_Milk_Bucket.png',
+                    'https://github.com/MehVahdJukaar/FarmersDelightRefabricated/blob/fabric/1.21.1-3.0.0/src/main/resources/assets/farmersdelight/textures/item/milk_bottle.png?raw=true' ]
+
 // --------------- Image Load ---------------
 
 
@@ -353,6 +356,7 @@ loadImg('goldIngot', 'https://wiki.cobblemon.com/images/2/22/Gold_Ingot.png')
 loadImg('emerald', 'https://minecraft.wiki/images/Invicon_Emerald.png')
 loadImg('diamond', 'https://wiki.cobblemon.com/images/e/ea/Diamond.png')
 loadImg('netherite', 'https://minecraft.wiki/images/Invicon_Netherite_Ingot.png')
+loadImg('netherStar', 'https://minecraft.wiki/images/Invicon_Nether_Star.gif')
 loadImg('scute', 'https://minecraft.wiki/images/Invicon_Turtle_Scute.png')
 loadImg('shulkerShell', 'https://minecraft.wiki/images/Invicon_Shulker_Shell.png')
 loadImg('nautilus', 'https://minecraft.wiki/images/Invicon_Nautilus_Shell.png')
@@ -388,6 +392,7 @@ loadImg('gap', 'https://minecraft.wiki/images/Invicon_Golden_Apple.png')
 loadImg('gca', 'https://minecraft.wiki/images/Invicon_Golden_Carrot.png')
 loadImg('honey', 'https://minecraft.wiki/images/Invicon_Honey_Bottle.png')
 loadImg('susStew', 'https://minecraft.wiki/images/Invicon_Suspicious_Stew.png')
+loadImg('wheat', 'https://minecraft.wiki/images/Invicon_Wheat.png')
 
 // Potion
 loadImg('blazePowder', 'https://minecraft.wiki/images/Invicon_Blaze_Powder.png')
@@ -400,7 +405,7 @@ loadImg('membrane', 'https://minecraft.wiki/images/Invicon_Phantom_Membrane.png'
 loadImg('turtleShell', 'https://minecraft.wiki/images/Invicon_Turtle_Shell.png')
 loadImg('slimeBall', 'https://minecraft.wiki/images/Invicon_Slimeball.png')
 loadImg('wart', 'https://minecraft.wiki/images/Invicon_Nether_Wart.png')
-loadImg('milk', 'https://minecraft.wiki/images/Invicon_Milk_Bucket.png')
+loadImg('milkBucket', Milk[0])
 
 // Redstone
 loadImg('lever', 'https://minecraft.wiki/images/Invicon_Lever.png')
@@ -453,6 +458,14 @@ loadImg('soulLantern', 'https://minecraft.wiki/images/Invicon_Soul_Lantern.png')
 loadImg('shroomlight', 'https://minecraft.wiki/images/Invicon_Shroomlight.png')
 loadImg('endRod', 'https://minecraft.wiki/images/Invicon_End_Rod.png')
 
+// Fuel
+loadImg('coal', 'https://minecraft.wiki/images/Invicon_Coal.png')
+loadImg('lava', 'https://minecraft.wiki/images/Invicon_Lava_Bucket.png')
+
+// Fungies
+loadImg('crimsonFungus', 'https://minecraft.wiki/images/Invicon_Crimson_Fungus.png')
+loadImg('warpedFungus', 'https://minecraft.wiki/images/Invicon_Warped_Fungus.png')
+
 // Others
 loadImg('armorStand', 'https://minecraft.wiki/images/Invicon_Armor_Stand.png')
 loadImg('bars', 'https://minecraft.wiki/images/Invicon_Iron_Bars.png')
@@ -463,6 +476,7 @@ loadImg('bucket', 'https://minecraft.wiki/images/Invicon_Bucket.png')
 loadImg('cactus', 'https://minecraft.wiki/images/Invicon_Cactus.png')
 loadImg('campfire', 'https://minecraft.wiki/images/Invicon_Campfire.png')
 loadImg('chain', 'https://minecraft.wiki/images/Invicon_Iron_Chain.png')
+loadImg('chorusFlower', 'https://minecraft.wiki/images/Invicon_Chorus_Flower.png')
 loadImg('clock', 'https://minecraft.wiki/images/Invicon_Clock.gif')
 loadImg('cryObby', 'https://minecraft.wiki/images/Invicon_Crying_Obsidian.png')
 loadImg('dragonHead', 'https://minecraft.wiki/images/Invicon_Dragon_Head.png')
@@ -479,7 +493,6 @@ loadImg('goatHorn', 'https://minecraft.wiki/images/Invicon_Goat_Horn.png')
 loadImg('grassBlock', 'https://minecraft.wiki/images/Invicon_Grass_Block.png')
 loadImg('gravel', 'https://minecraft.wiki/images/Invicon_Gravel.png')
 loadImg('ice', 'https://minecraft.wiki/images/Invicon_Ice.png')
-loadImg('lava', 'https://minecraft.wiki/images/Invicon_Lava_Bucket.png')
 loadImg('lead', 'https://minecraft.wiki/images/Invicon_Lead.png')
 loadImg('magma', 'https://minecraft.wiki/images/Invicon_Magma_Block.gif')
 loadImg('mud', 'https://minecraft.wiki/images/Invicon_Mud.png')

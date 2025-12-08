@@ -261,7 +261,7 @@
             <h1></br>TM Recipes</h1>
             <section class="search_bar">
                 <form>
-                    <input style="font-size: xx-large; width: 100%;border: 3px solid #bbb; border-radius: 30px; padding: 10px; padding-left: 30px; padding-right: 30px;" type="text" id="search" placeholder="Search TM" onkeyup="searchFunction()">
+                    <input style="font-size: xx-large; width: 100%;border: 3px solid #bbb; border-radius: 30px; padding: 10px; padding-left: 30px; padding-right: 30px;" type="text" id="search" placeholder="Search TM recipe" onkeyup="searchFunction()">
                 </form>
                 <div class="table-container" id="tm-list">
 
@@ -3324,7 +3324,7 @@
                             <div class="item-slot-row">
                             <div class="item-slot"><img class="emeraldTM"><span class="item-tooltip">Emerald Blank Disc</span></div>
                             <div class="item-slot"><img class="iceGem"><span class="item-tooltip">Ice Gem</span></div>
-                            <div class="item-slot"><img class="milk"><span class="item-tooltip">Milk Bucket</span></div>
+                            <div class="item-slot"><img class="milkBucket"><span class="item-tooltip">Milk Bucket</span></div>
                             </div>
                             <div class="item-slot-row">
                             <div class="item-slot"></div>
@@ -8274,8 +8274,8 @@
 
 <div class="footer">
 </div>
-<script src="../functions.js" type="module"></script>
-<script src="../image.js" type="module"></script>
+<script src="../common_image/functions.js" type="module"></script>
+<script src="../common_image/image.js" type="module"></script>
 <script type="module">
     class TM extends HTMLElement {
         
@@ -8288,28 +8288,8 @@
 
 
     customElements.define('tm-tooltip', TM);
-    const searchFunction = () => {
-        const search_input = document.getElementById("search").value.toUpperCase();
-        const tmList = document.getElementById("tm-list")
-        const searchRecipe = document.querySelectorAll(".tm")
-        const allTM = tmList.getElementsByTagName("tm-tooltip")
 
-        for (var i = 0; i < allTM.length; i++) {
-            let match = searchRecipe[i].getElementsByTagName("tm-tooltip")[0]
-
-            // console.log(match.textContent)
-            if (match) {
-                let textValue = match.textContent || match.innerHTML
-                if (textValue.toUpperCase().indexOf(search_input) > -1) {
-                    searchRecipe[i].style.display = ''
-                } else {
-                    searchRecipe[i].style.display = 'none'
-                }
-            }
-        }
-    }
-
-    import { loadImg } from "../functions.js"
+    import { loadImg } from "../common_image/functions.js"
     //  ----- Cobblemon -----
 
     // Berries
@@ -8404,7 +8384,7 @@
     loadImg('fairyTM', 'https://raw.githubusercontent.com/KiwiFlavoredApollo/tm-craft/refs/heads/master/src/main/resources/assets/tmcraft/textures/item/tm_fairy_type.png')
     loadImg('moveUpgrade', 'https://raw.githubusercontent.com/KiwiFlavoredApollo/tm-craft/refs/heads/master/src/main/resources/assets/tmcraft/textures/item/move_upgrade_smithing_template.png')
 
-    import { Boats, CobblemonSeeds, Potions, SplashPotions, TippedArrows, SmallFlowers, Flowers, Leaves, Beds, Mints, PokeBalls, Berries, MusicDiscs } from "../image.js"
+    import { Boats, CobblemonSeeds, Potions, SplashPotions, TippedArrows, SmallFlowers, Flowers, Leaves, Beds, Mints, PokeBalls, Berries, MusicDiscs } from "../common_image/image.js"
     let index = [0,0,0,0,0,0,0,0,0,0]
     changeImg()
     setInterval(changeImg, 1500)
@@ -8432,6 +8412,28 @@
         index[7] = (index[7] + 1) % PokeBalls.length
         index[8] = (index[8] + 1) % Berries.length
         index[9] = (index[9] + 1) % MusicDiscs.length
+    }
+</script>
+<script>
+    const searchFunction = () => {
+        const search_input = document.getElementById("search").value.toUpperCase();
+        const tmList = document.getElementById("tm-list")
+        const searchRecipe = document.querySelectorAll(".tm")
+        const allTM = tmList.getElementsByTagName("tm-tooltip")
+
+        for (var i = 0; i < allTM.length; i++) {
+            let match = searchRecipe[i].getElementsByTagName("tm-tooltip")[0]
+
+            // console.log(match.textContent)
+            if (match) {
+                let textValue = match.textContent || match.innerHTML
+                if (textValue.toUpperCase().indexOf(search_input) > -1) {
+                    searchRecipe[i].style.display = ''
+                } else {
+                    searchRecipe[i].style.display = 'none'
+                }
+            }
+        }
     }
 </script>
 

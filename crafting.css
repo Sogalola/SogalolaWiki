@@ -1,7 +1,7 @@
 .crafting-interface{
     height:130px;
     width:257px;
-    background-image:url(./arrow.png);
+    background-image:url(./common_image/arrow.png);
     background-position:137px 46px
 }
 .interface .item-slot-row{
@@ -30,7 +30,7 @@
 .smithing-interface{
     height:50px;
     width:241px;
-    background-image:url(./arrow.png);
+    background-image:url(./common_image/arrow.png);
     background-position:137px 8px
 }
 .item-tooltip{
@@ -100,6 +100,67 @@
     background-color:rgba(255,255,255,.5);
     position:absolute;
     pointer-events:none
+}
+.smelting-interface {
+    height:128px;
+    width:190px;
+    background-image: url(./common_image/animated_progress_arrow.gif);
+    background-position: 64px 46px
+}
+.smoking{
+    background-image: url(https://minecraft.wiki/images/BlockSprite_smoker.png), url(./common_image/animated_progress_arrow.gif);
+    background-position:  70px 36px, 64px 46px
+}
+.smelting-interface .smelting-interface-input{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    height:108px;
+    background-image:url(common_image/flames.png);
+    background-position:4px 40px;
+    background-repeat:no-repeat
+}
+.image-sequence .image-sequence-group {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+}
+.cutting-interface {    
+    height: 140px;
+    width: 250px;
+    background-image: url(./common_image/Cutting_Board.png), url(./common_image/progress_arrow.png);
+    background-size: 80px, 44px;
+    background-position: 10px 84px, 110px 52px;
+}
+.cutting-interface .cutting-interface-tools {
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    margin: 0px 20px;
+    height: 85px; width: 80px;
+    background-repeat:no-repeat
+}
+.interface .cutting-slot,
+.infobox .cutting-slot{
+    border-radius:2px;
+    margin:2px
+}
+.cutting-slot{
+    position:relative;
+    width:32px;
+    height:32px;
+    display:flex;
+    justify-content:center;
+    align-items:center
+}
+.cutting-slot img{
+    width:32px !important;
+    height:32px !important;
+    image-rendering:pixelated
+}
+.cutting-slot:hover .item-tooltip{
+    display:block
 }
 .table-container {
     display: flex;
