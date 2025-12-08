@@ -1,7 +1,9 @@
 import { loadImg } from "../common_image/functions.js"
 
+export var RawDragon = [ 'https://github.com/FoggyHillside/End-s-Delight/blob/1.21.1-Refabricated/src/main/resources/assets/ends_delight/textures/item/raw_dragon_meat.png?raw=true',
+                    'https://github.com/FoggyHillside/End-s-Delight/blob/1.21.1-Refabricated/src/main/resources/assets/ends_delight/textures/item/raw_dragon_meat_cuts.png?raw=true' ]
 // Dragon
-loadImg('rawDragonMeat', 'https://github.com/FoggyHillside/End-s-Delight/blob/1.21.1-Refabricated/src/main/resources/assets/ends_delight/textures/item/raw_dragon_meat.png?raw=true')
+loadImg('rawDragonMeat', RawDragon[0])
 loadImg('dragonLeg', 'https://github.com/FoggyHillside/End-s-Delight/blob/1.21.1-Refabricated/src/main/resources/assets/ends_delight/textures/item/dragon_leg.png?raw=true')
 loadImg('dragonTooth', 'https://github.com/FoggyHillside/End-s-Delight/blob/1.21.1-Refabricated/src/main/resources/assets/ends_delight/textures/item/dragon_tooth.png?raw=true')
 // Other mobs
